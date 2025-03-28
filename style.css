@@ -1,0 +1,24 @@
+.grande { font-size: 60px; }body::before {
+  content: "Roger Parcet - Perquè els nzais NO eren ni seran socialistes";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.paywall {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: white;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   text-align: center;
+   display: none;
+   z-index: 1000;
+}
